@@ -12,14 +12,11 @@ function Avatar({ person, size }) {
   );
 }
 
-export default function Profile() {
+export default function Profile(person) {
   return (
     <Avatar
       size={40}
-      person={{ 
-        name: 'Gregorio Y. Zara', 
-        imageId: '7vQD0fP'
-      }}
+      person={person}
     />
   );
 }
